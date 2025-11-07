@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lecture_1"
+authors = [{name = "Andrew Maryskin", email="centner36@gmail.com"}]
+
+# project dependencies
+dependencies = [
+    "colorama"
+]
+
+[project.urls]
+# Link to the project's github
+Repository = " https://github.com/Centnerok/innowise_laboratory.git"
